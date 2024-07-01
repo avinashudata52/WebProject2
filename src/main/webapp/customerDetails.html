@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Details Form</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 20px;">
+    <h2 style="color: #333;">Customer Details Form</h2>
+    <form action="sendInfo" method="post" style="max-width: 400px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; background-color: #f9f9f9;">
+        <label for="name" style="display: block; margin-bottom: 8px; font-weight: bold;">Name:</label>
+        <input type="text" id="name" name="t1" style="width: 100%; padding: 8px; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <label for="email" style="display: block; margin-bottom: 8px; font-weight: bold;">Email:</label>
+        <input type="email" id="email" name="t2" style="width: 100%; padding: 8px; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <label for="address" style="display: block; margin-bottom: 8px; font-weight: bold;">Address:</label>
+        <textarea id="address" name="t3" rows="4" style="width: 100%; padding: 8px; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+
+        <label for="phone" style="display: block; margin-bottom: 8px; font-weight: bold;">Phone Number:</label>
+        <input type="tel" id="phone" name="t4" style="width: 100%; padding: 8px; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <button type="submit" style="width: 100%; padding: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">Submit</button>
+    </form>
+</body>
+<a href='sendInfo'>GET REQUEST HEADER</a>
+</html>
